@@ -2,8 +2,10 @@
 
 https://rest-countries-sabrina.surge.sh
 
-#Responsivo
+Utilizando react e tailwindcss
 
-#Feito a requisicao da api
+# 1-Responsivo
 
-#Opção de busca funcionando com letra maiuscula e minuscula, menos com acentos
+# 2-Feito a requisicao da api
+
+# 3-Opção de busca funcionando com letra maiuscula e minuscula, menos com acentos
