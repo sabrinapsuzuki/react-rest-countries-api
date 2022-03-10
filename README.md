@@ -1,8 +1,8 @@
+# Utilizando react e tailwindcss
+
 # Projeto em desenvolvimento ainda 
 
 https://rest-countries-sabrina.surge.sh
-
-#Utilizando react e tailwindcss
 
 1-Responsivo
 
