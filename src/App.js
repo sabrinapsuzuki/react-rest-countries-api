@@ -17,6 +17,7 @@ function App() {
     loadCountries();
   }, []);
 
+  //carregar countries
   const loadCountries = () => {
     fetch("https://restcountries.com/v2/all")
       .then((response) => {
@@ -25,12 +26,16 @@ function App() {
       .then((json) => setCountries(json));
   };
 
+  //lendo busca do input
   const lerBusca = (event) => {
     setBusca(event.target.value);
   };
 
+  //passando oq foi digitado para minusculo
   const loweBusca = busca.toLowerCase();
 
+  //filtrando a lista 'countries' minuscula de acordo com
+  //oq foi digitado pelo usuario
   const countriesFiltrados = countries.filter((countrie) =>
     countrie.translations.br.toLowerCase().includes(loweBusca)
   );
